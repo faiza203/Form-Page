@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/faiza203/Form-Page/issues"
   },
-  "homepage": "https://github.com/faiza203/Form-Page#readme"
+  "homepage": "https://github.com/faiza203/Form-Page#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
