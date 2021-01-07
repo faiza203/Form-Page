@@ -1,0 +1,19 @@
+{
+  "name": "form-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faiza203/Form-Page.git"
+  },
+  "author": "Faiza 203",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faiza203/Form-Page/issues"
+  },
+  "homepage": "https://github.com/faiza203/Form-Page#readme"
+}
