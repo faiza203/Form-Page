@@ -1,4 +1,6 @@
 const express = require("express");
+require("./db/connect.js")
+
 const app = express();
 const port = process.env.PORT || 8000
 
