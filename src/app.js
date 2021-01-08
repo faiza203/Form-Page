@@ -7,9 +7,10 @@ const port = process.env.PORT || 8000
 const staticPath = path.join(`${__dirname}/../public`)
 
 app.use(express.static(staticPath))
-console.log(staticPath);
+app.set("view engine" , "hbs")
+
 app.get("/" , (req , res) => {
-    res.sendFile('index')
+    res.render('index')
 })
 
 app.listen(port , () => {
