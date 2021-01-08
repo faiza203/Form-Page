@@ -1,6 +1,10 @@
-.main{
-    background-color: blue;
+body {
+  background-image: url("./../img/stars.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
 }
-.navbar a{
-    color: #ffffff;
+
+.navbar a {
+  color: #ffffff;
 }
