@@ -1,13 +1,35 @@
 .inner {
+  margin: 1em 15% 0 15%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 2em;
+}
+.middle {
   background-color: #010028;
-  margin: 0 30%;
+  width: 40em;
   display: flex;
   flex-direction: row;
+  border-radius: 1em;
+  padding: 3em;
+  justify-content: space-between;
 }
-.img{
-    background-color: #ffffff;
+.img {
+  border: 10px solid;
+  background-color: #ffffff;
+  border-radius: 10em;
 }
-form input {
-  width: 15em;
-  height: 30px;
+
+.form {
+  margin: 20px -24px;
+}
+
+.form div {
+  display: flex;
+  flex-direction: row;
+  width: 3em;
+}
+
+.form input {
+  background-color: red;
+  border: 0;
 }
