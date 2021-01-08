@@ -1,5 +1,7 @@
 const express = require("express");
 const path = require("path");
+const hbs = require("hbs");
+
 require("./db/connect.js")
 
 const app = express();
@@ -7,10 +9,13 @@ const port = process.env.PORT || 8000
 
 const staticPath = path.join(`${__dirname}/../public`)
 const viewsPath = path.join(`${__dirname}/../templates/views`);
+const paritalsPath = path.join(`${__dirname}/../templates/partials`);
 
 app.use(express.static(staticPath))
 app.set("view engine" , "hbs")
 app.set("views" , viewsPath)
+
+hbs.registerPartials(paritalsPath)
 
 app.get("/" , (req , res) => {
     res.render('index')
