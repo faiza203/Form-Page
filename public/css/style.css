@@ -10,7 +10,7 @@ body {
   justify-content: space-between;
 }
 
-.outer a {
+a {
   color: pink;
 }
 
@@ -24,10 +24,3 @@ body {
   margin-top: 3em;
 }
 
-.flex {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  text-align: center;
-  margin:  0 20%;
-}
