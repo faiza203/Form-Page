@@ -1,10 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:wght@500&display=swap");
 body {
+  background-color: #010028;
   background-image: url("./../img/stars.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.navbar a {
-  color: #ffffff;
+.outer a {
+  color: pink;
+}
+
+.outer {
+  font-weight: 500;
+}
+
+.outer h1 {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 3em;
+}
+
+.flex {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  margin:  0 20%;
 }
