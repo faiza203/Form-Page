@@ -1,8 +1,7 @@
 .flex {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-    margin:  0 20%;
-  }
-  
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 20%;
+}
