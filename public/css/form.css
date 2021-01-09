@@ -2,7 +2,7 @@
   margin: 0;
 }
 .inner {
-  margin: 1em 0 0 6em;
+  margin: 1em 0 0 8%;
   background-color: #ffffff;
   padding: 1em;
   position: absolute;
@@ -29,6 +29,11 @@
   margin: 3em;
 }
 
+img {
+  height: 10em;
+  width: 10em;
+}
+
 .form {
   background-color: #cfd0d3;
   margin: 1em -24px;
@@ -53,13 +58,19 @@
   margin: 5px 5px 10px 5px;
 }
 
-.form ::placeholder{
+.form ::placeholder {
   color: rgb(81, 189, 231);
 }
 
-.form button{
-  position:absolute;
-  right : 0;
+.form button {
+  position: absolute;
+  right: 0;
   bottom: 0;
   margin: 0 11px 2px 0;
+}
+
+@media (max-width: 768px) {
+  .inner {
+    margin: 0;
+  }
 }

@@ -1,3 +1,7 @@
+body{
+  min-height: 35em;
+}
+
 .flex {
   position: absolute;
   bottom: 0;
@@ -5,3 +9,4 @@
   text-align: center;
   margin: 0 20%;
 }
+

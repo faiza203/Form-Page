@@ -10,6 +10,10 @@ body {
   justify-content: space-between;
 }
 
+.navbar-toggler {
+  background-color: #ffffff;
+}
+
 a {
   color: pink;
 }
@@ -18,14 +22,8 @@ a {
   font-weight: 500;
 }
 
-.outer h1{
+.outer h1 {
   text-align: center;
   font-weight: bolder;
   margin-top: 3em;
 }
-
-.outer h3{
-  text-align: center;
-  font-weight: bolder;
-}
-

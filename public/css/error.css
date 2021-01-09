@@ -1,0 +1,10 @@
+.outer h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+    width:10%;
+    margin:0 45%;
+    min-width: 7em;
+}
