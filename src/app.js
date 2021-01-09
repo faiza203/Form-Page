@@ -2,29 +2,37 @@ const express = require("express");
 const path = require("path");
 const hbs = require("hbs");
 
-require("./db/connect.js")
+require("./db/connect.js");
 
 const app = express();
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 8000;
 
-const staticPath = path.join(`${__dirname}/../public`)
+const staticPath = path.join(`${__dirname}/../public`);
 const viewsPath = path.join(`${__dirname}/../templates/views`);
 const paritalsPath = path.join(`${__dirname}/../templates/partials`);
 
-app.use(express.static(staticPath))
-app.set("view engine" , "hbs")
-app.set("views" , viewsPath)
+app.use(express.static(staticPath));
+app.set("view engine", "hbs");
+app.set("views", viewsPath);
 
-hbs.registerPartials(paritalsPath)
+hbs.registerPartials(paritalsPath);
 
-app.get("/" , (req , res) => {
-    res.render('index')
-})
+app.get("/", (req, res) => {
+  res.render("index");
+});
 
-app.get("/login" , (req , res) => {
-    res.render('login')
-})
+app.get("/login", (req, res) => {
+  res.render("login", {
+    title: "Login",
+  });
+});
 
-app.listen(port , () => {
-    console.log(`I am running on port ${port}`);
-})
+app.get("/register", (req, res) => {
+  res.render("register", {
+    title: "Register",
+  });
+});
+
+app.listen(port, () => {
+  console.log(`I am running on port ${port}`);
+});

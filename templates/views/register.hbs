@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>links}}
+    <link rel="stylesheet" href="css/form.css">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="outer">
+            {{>navbar}}
+            <h1>{{title}}</h1>
+        </div>
+        <div class="inner">
+            <div class="middle">
+                <div class="img">
+                    <img height="200em" width="200em" src="img/airplane.jpg" alt="">
+                </div>
+                <div class="middle-form">
+                    <form class="form">
+                        <div class="name-div">
+                            <input type="text" name="name" id="name" placeholder="First Name">
+                            <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                        </div>
+                        <div class="info">
+                            <input type="number" name="age" id="age" placeholder="Age">
+                            <input type="radio" name="gender" value="male"> Male<br>
+                            <input type="radio" name="gender" value="female"> Female<br>
+                        </div>
+                        <div class="contact">
+                            <input type="text" name="email" id="email" placeholder="Email">
+                            <input type="text" name="phone" id="phone" placeholder="Phone No">
+                        </div>
+                        <div class="password-div">
+                            <input type="password" name="password" id="password" placeholder="Password">
+                            <input type="password" name="password2" id="password2" placeholder="Confirm Password">
+                        </div>
+                            <button id="login" class="btn btn-outline-primary">{{title}}</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
