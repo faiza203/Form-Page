@@ -33,6 +33,10 @@ app.get("/register", (req, res) => {
   });
 });
 
+app.get("*", (req, res) => {
+    res.render("error");
+  });
+  
 app.listen(port, () => {
   console.log(`I am running on port ${port}`);
 });
