@@ -2,7 +2,7 @@
   margin: 0;
 }
 .inner {
-  margin: 1em 0 0 8%;
+  margin: 1em 0 0 7em;
   background-color: #ffffff;
   padding: 1em;
   position: absolute;
@@ -18,15 +18,16 @@
   display: flex;
   flex-direction: row;
   border-radius: 1em 0 0 1em;
-  width: 95%;
+  width: 60em;
   margin: 0 2em;
+  height: 20em;
 }
 
 .img {
   border: 10px solid;
   background-color: #ffffff;
   border-radius: 10em;
-  margin: 3em;
+  margin: 4em;
 }
 
 img {
@@ -40,7 +41,7 @@ img {
   padding: 1em 4em;
   position: absolute;
   border-radius: 5em 0 0 5em;
-  height: 80%;
+  height: 18em;
 }
 
 .form div {
@@ -66,7 +67,7 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  margin: 0 11px 2px 0;
+  margin: 0 11px 12px 0;
 }
 
 @media (max-width: 768px) {

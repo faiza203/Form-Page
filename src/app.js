@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const hbs = require("hbs");
-
+const register = require("./register");
 require("./db/connect.js");
 
 const app = express();

@@ -3,8 +3,8 @@
   font-weight: bold;
 }
 
-button {
-    width:10%;
-    margin:0 45%;
-    min-width: 7em;
+.btn-outline-light {
+  width: 10%;
+  margin: 2px 45% 0 45%;
+  min-width: 7em;
 }
