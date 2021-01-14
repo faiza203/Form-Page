@@ -51,7 +51,8 @@ img {
 
 .form input[type="text"],
 .form input[type="number"],
-.form input[type="password"] {
+.form input[type="password"],
+.form input[type="email"] {
   color: rgb(81, 189, 231);
   border: 3px solid rgb(81, 189, 231);
   height: 40px;
